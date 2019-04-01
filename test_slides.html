@@ -17,6 +17,10 @@
 		
         Author | MHP
         ]
+
+        ???
+
+        Some note
         
         ---
         layout: true
@@ -27,7 +31,7 @@
         ]
 
         .content[
-        ![asd](https://iamturns.com/static/simply-configure-typescript-1933ffec04eb2221fd05695a070016a5-27dc3.jpg)
+        .center[![asd](https://iamturns.com/static/simply-configure-typescript-1933ffec04eb2221fd05695a070016a5-27dc3.jpg)]
 
         Configuring a Single Page App (SPA) with typescript is hard
 
@@ -36,6 +40,29 @@
         - You need an overview over the complete toolchain
 
         _Image taken from https://iamturns.com/typescript-babel/_
+        ]
+        ---
+        .header[
+        ## Some Code
+        ]
+        .content[
+        ```tsx
+        export class MyComponent extends React.Component {
+          public render() {
+            return <div>Hello World</div>;
+          }
+        }
+        ```
+        
+        ```csharp
+        public class MyStuff 
+        {
+          public void DoStuff(int number)
+          {
+        *    number = number + 1;
+          }
+        }
+        ```
         ]
         ---
         layout: true
@@ -60,6 +87,8 @@
         var slideshow = remark.create({
           ratio: '16:9',
           slideNumberFormat: '%current%',
+          highlightLines: true,
+          highlightStyle: "default"
         });
      </script>
   </body>

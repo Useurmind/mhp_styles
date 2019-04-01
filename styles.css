@@ -53,6 +53,7 @@ h1, h2, h3 {
 .contentSlide .content {
     height: 85%;
     padding-left: 40px;
+    padding-right: 40px;
     color: rgb(87,87,87);
 }
 
