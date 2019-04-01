@@ -64,3 +64,10 @@ h1, h2, h3 {
 .remark-inline-code {
     color: #880000;
 }
+
+.reference {
+    margin-bottom: auto;
+    position: absolute;
+    left: 40px;
+    bottom: 40px;
+}
