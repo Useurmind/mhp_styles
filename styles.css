@@ -60,3 +60,7 @@ h1, h2, h3 {
 .contentSlide .remark-slide-number {
     color: rgb(87,87,87);
 }
+
+.remark-inline-code {
+    color: #880000;
+}
